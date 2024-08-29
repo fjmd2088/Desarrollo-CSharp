@@ -35,9 +35,10 @@
             this.nombre_ua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empleo_anterior = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtRutaDirectorio = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -49,6 +50,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(12, 72);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -111,14 +113,12 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // txtRutaDirectorio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "boton que abre un directorio";
+            this.txtRutaDirectorio.Location = new System.Drawing.Point(190, 103);
+            this.txtRutaDirectorio.Name = "txtRutaDirectorio";
+            this.txtRutaDirectorio.Size = new System.Drawing.Size(428, 20);
+            this.txtRutaDirectorio.TabIndex = 2;
             // 
             // button1
             // 
@@ -130,12 +130,24 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtRutaDirectorio
+            // label1
             // 
-            this.txtRutaDirectorio.Location = new System.Drawing.Point(190, 103);
-            this.txtRutaDirectorio.Name = "txtRutaDirectorio";
-            this.txtRutaDirectorio.Size = new System.Drawing.Size(428, 20);
-            this.txtRutaDirectorio.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(57, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "boton que abre un directorio";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1211, 598);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -168,6 +180,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtRutaDirectorio;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
 
